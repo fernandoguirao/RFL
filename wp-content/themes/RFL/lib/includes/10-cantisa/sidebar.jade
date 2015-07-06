@@ -1,4 +1,4 @@
-.sidebar.dark-bgcolor
+.sidebar.main-bgcolor
   .close-view.light-color
     a.sans(href="#",data-toggle="sidebar") +
   .block
@@ -10,17 +10,17 @@
         .side-menu
           ul#main-nav.main-nav.nav-menu.nav-lined.light-color.align-left
             li
-              a(href="/quienes",data-toggle="sidebar",data-scrollTo="true")
-                p.sans-2.uppercase.italic Quiénes somos
+              a(href!="<?php echo get_site_url(); ?>",data-toggle="sidebar",data-scrollTo="true")
+                p.sans-2.uppercase.italic Home
             li
-              a(href="/productos",data-toggle="sidebar",data-scrollTo="true")
-                p.sans-2.uppercase.italic Productos
+              a(href!="<?php echo get_site_url(); ?>/servicios",data-toggle="sidebar",data-scrollTo="true")
+                p.sans-2.uppercase.italic Servicios
             li
-              a(href="/noticias",data-toggle="sidebar",data-scrollTo="true")
-                p.sans-2.uppercase.italic Noticias
-            li
-              a(href="/contacto",target="_blank")
+              a(href!="<?php echo get_site_url(); ?>/contacto",data-toggle="sidebar",data-scrollTo="true")
                 p.sans-2.uppercase.italic Contacto
             li
-              a(href="/")
-                p.sans-2.uppercase.italic Busca un producto
+              a(href!="<?php echo get_site_url(); ?>/blog",target="_blank")
+                p.sans-2.uppercase.italic Blog
+            li
+              a(href!="<?php echo get_site_url(); ?>/tracking")
+                p.sans-2.uppercase.italic Tracking

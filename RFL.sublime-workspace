@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"search",
+				"searchBarButton"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"check",
+				"checkbox-inline"
+			],
+			[
+				"spa",
+				"spacing"
+			],
+			[
+				"text-",
+				"text-block-bgcolor"
+			],
+			[
+				"sp",
+				"spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "status",
+		"selected_items":
+		[
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git sta",
+				"Git: Stash"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/RFL/wp-content",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/RFL/wp-content/themes"
+	],
+	"file_history":
+	[
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/RFL/wp-content/themes/RFL/lib/documentacion.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/RFL/.gitignore",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/assets/css/app.css",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/assets/js/ie.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/twentyfifteen/404.php",
+		"/Users/fernandoguirao/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/functions.php",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/header.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/src/less/globals/demo-vars.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/includes/10-cantisa/pages/noticias.jade",
+		"/Users/fernandoguirao/Library/Application Support/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/Users/fernandoguirao/Library/Application Support/Sublime Text 3/Packages/SublimeGit/Default.sublime-keymap",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/category.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/category-cantisa_producto.php",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/includes/10-cantisa/pages/producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/includes/10-cantisa/pages/productos.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/archive-cantisa_producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/includes/10-cantisa/pages/categorias.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/includes/10-cantisa/pages/noticia.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/contacto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/category-slug.php",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/categoria-producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/src/less/ui/spacing.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/productos.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/lib/single-cantisa_producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/themes/cantisa/single-cantisa_producto.php",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Cantisa/wordpress/wp-content/plugins/simple-lightbox/functions.php",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/buttons.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/noticia.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/animations.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/js/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/searchbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/productos.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/index.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/docs/documentation.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/globals/demo-vars.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/index-demo01.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/assets/misc/10-cantisa/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/assets/js/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/gulpfile.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-productos.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/spacing.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/contacto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/pages/quienes.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/blocks.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/portfolio-block.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/forms.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/sidebar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/images.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/footer.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/globals/variables.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/bower_components/bootstrap/less/glyphicons.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-index.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/globals/mixins.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/colours.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/10-index.html",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/typography.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/lists.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/foot.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/navbar.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-producto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-noticia.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-quienes.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/10-contacto.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/head.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/10-cantisa/blocks.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/assets/misc/demo09/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo09/head.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo09/foot.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/index.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/demo09/blocks.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/assets/misc/demo09/angularanimate.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/preloaders.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/assets/misc/demo09/angular.min.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/app.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/links.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/iphone-case.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo09/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/views/match3.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/js/dependencies/01-jquery-ui.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/js/dependencies/04-angular-drag.min.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/js/dependencies/angular-drag.min.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/styles/jquery-ui.css",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/views/login.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/views/homepage.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/js/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/assets/js/dependencies/angular.min.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/quotes.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo08/footer.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/demo08/blocks.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo01/head.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo08/head.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo08/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Bueninvento/bueninvento.es/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/02 Tests/sockets/assets/js/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/02 Tests/sockets/views/layout.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo06/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo02/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/demo07/01-banner.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/demo06/01-banner.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo07/footer.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo07/topbar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/demo02/header-slider.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/dist/index-demo06.html",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/index-demo06.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/ui/columns.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo06/footer.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/footer-blocks.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo06/sidebar.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/icon-blocks.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less/blocks/study.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/bower_components/components-font-awesome/less/icons.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/bower_components/components-font-awesome/less/font-awesome.less",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/node_modules/gulp-combine-media-queries/node_modules/gulp-util/lib/colors.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/all/foot.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/assets/js/dependencies/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/views/layout.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/api/controllers/Home$Controller.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/app.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/api/controllers/AppController.js",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/03/prueba/views/homepage.ejs",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/all/header-slider.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/blocks/all/header-big.jade",
+		"/Users/fernandoguirao/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/lib/includes/demo01/foot.jade",
+		"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/bower.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/fernandoguirao/Dropbox/Bueninvento/Proyectos/01 Activos/Big Band/desarrollo/bigbandfront/src/less"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"no",
+			"side",
+			"thumb",
+			"menu",
+			"bg-alpha-dark",
+			"center",
+			"align",
+			"center",
+			"bgcolor",
+			".form",
+			"form",
+			"input",
+			"form-borde",
+			"form.",
+			"form",
+			"lined",
+			"slickInit('#idunica');",
+			"preload",
+			"loader",
+			"preloader",
+			"text",
+			"form-inline",
+			"text-link",
+			"zoom",
+			"link",
+			"links",
+			"input",
+			"form",
+			"btn-grad",
+			"drag me",
+			"alpha",
+			"opacity",
+			"quote",
+			"rootScope",
+			"login",
+			"create",
+			"sessionId",
+			"userId",
+			"\"btn\"",
+			"<button",
+			"projectI",
+			"@",
+			"scroll",
+			"brand",
+			"container",
+			"desca",
+			"zoom",
+			"column-1",
+			"lined",
+			"typo",
+			"icon",
+			"background",
+			"lined",
+			"upper",
+			"alpha",
+			".css",
+			"css",
+			".ff",
+			"pngcru"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"btn btn-default\"",
+			"<button class=\"btn\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 118.0
+	},
+	"output.git-push":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "RFL.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"documentacion",
+				"wp-content/themes/RFL/lib/documentacion.jade"
+			],
+			[
+				"func",
+				"themes/cantisa/functions.php"
+			],
+			[
+				"demo-var",
+				"themes/cantisa/src/less/globals/demo-vars.less"
+			],
+			[
+				"productos.jade",
+				"themes/cantisa/lib/includes/10-cantisa/pages/productos.jade"
+			],
+			[
+				"productos.j",
+				"themes/cantisa/lib/productos.jade"
+			],
+			[
+				"spacing",
+				"themes/cantisa/src/less/ui/spacing.less"
+			],
+			[
+				"producto.jade",
+				"themes/cantisa/lib/includes/10-cantisa/pages/producto.jade"
+			],
+			[
+				"single-cantisa",
+				"themes/cantisa/lib/single-cantisa_producto.jade"
+			],
+			[
+				"functions",
+				"themes/cantisa/functions.php"
+			],
+			[
+				"10index",
+				"lib/includes/10-cantisa/pages/index.jade"
+			],
+			[
+				"index10",
+				"lib/index-demo01.jade"
+			],
+			[
+				"documen",
+				"docs/documentation.jade"
+			],
+			[
+				"animations",
+				"src/less/ui/animations.less"
+			],
+			[
+				"app.js",
+				"dist/assets/misc/10-cantisa/app.js"
+			],
+			[
+				"topbar",
+				"lib/includes/10-cantisa/topbar.jade"
+			],
+			[
+				"app",
+				"src/js/app.js"
+			],
+			[
+				"noticia",
+				"lib/includes/10-cantisa/pages/noticia.jade"
+			],
+			[
+				"button",
+				"src/less/ui/buttons.less"
+			],
+			[
+				"productos",
+				"lib/10-productos.jade"
+			],
+			[
+				"sidebar",
+				"lib/includes/10-cantisa/sidebar.jade"
+			],
+			[
+				"docu",
+				"docs/documentation.jade"
+			],
+			[
+				"topb",
+				"lib/includes/10-cantisa/topbar.jade"
+			],
+			[
+				"footer",
+				"lib/includes/10-cantisa/footer.jade"
+			],
+			[
+				"contacto",
+				"lib/includes/10-cantisa/pages/contacto.jade"
+			],
+			[
+				"demo",
+				"src/less/globals/demo-vars.less"
+			],
+			[
+				"forms",
+				"src/less/ui/forms.less"
+			],
+			[
+				"",
+				"src/less/globals/demo-vars.less"
+			],
+			[
+				"produ",
+				"lib/10-productos.jade"
+			],
+			[
+				"document",
+				"docs/documentation.jade"
+			],
+			[
+				"block",
+				"src/less/ui/blocks.less"
+			],
+			[
+				"vari",
+				"src/less/globals/variables.less"
+			],
+			[
+				"glyphi",
+				"src/bower_components/bootstrap/less/glyphicons.less"
+			],
+			[
+				"quienes",
+				"lib/includes/10-cantisa/pages/quienes.jade"
+			],
+			[
+				"images",
+				"src/less/ui/images.less"
+			],
+			[
+				"mixins",
+				"src/less/globals/mixins.less"
+			],
+			[
+				"colou",
+				"src/less/ui/colours.less"
+			],
+			[
+				"10-index",
+				"lib/includes/10-cantisa/pages/index.jade"
+			],
+			[
+				"10-in",
+				"dist/10-index.html"
+			],
+			[
+				"quie",
+				"lib/includes/10-cantisa/pages/quienes.jade"
+			],
+			[
+				"typo",
+				"src/less/ui/typography.less"
+			],
+			[
+				"typograp",
+				"src/less/ui/typography.less"
+			],
+			[
+				"blocks",
+				"src/less/ui/blocks.less"
+			],
+			[
+				"producto",
+				"lib/includes/10-cantisa/pages/producto.jade"
+			],
+			[
+				"demo-",
+				"src/less/globals/demo-vars.less"
+			],
+			[
+				"lists",
+				"src/less/ui/lists.less"
+			],
+			[
+				"buttons",
+				"src/less/ui/buttons.less"
+			],
+			[
+				"colours",
+				"src/less/ui/colours.less"
+			],
+			[
+				"var",
+				"src/less/globals/variables.less"
+			],
+			[
+				"foot",
+				"lib/includes/10-cantisa/foot.jade"
+			],
+			[
+				"10-pro",
+				"lib/10-productos.jade"
+			],
+			[
+				"typogra",
+				"src/less/ui/typography.less"
+			],
+			[
+				"demo-vars",
+				"src/less/globals/demo-vars.less"
+			],
+			[
+				"navbar",
+				"src/less/blocks/navbar.less"
+			],
+			[
+				"anumate",
+				"dist/assets/misc/demo09/angularanimate.js"
+			],
+			[
+				"head",
+				"lib/includes/demo09/head.jade"
+			],
+			[
+				"ty",
+				"src/less/ui/typography.less"
+			],
+			[
+				"varial",
+				"src/less/globals/variables.less"
+			],
+			[
+				"colour",
+				"src/less/ui/colours.less"
+			],
+			[
+				"typog",
+				"src/less/ui/typography.less"
+			],
+			[
+				"do",
+				"docs/documentation.jade"
+			],
+			[
+				"iphone",
+				"src/less/blocks/iphone-case.less"
+			],
+			[
+				"colo",
+				"src/less/ui/colours.less"
+			],
+			[
+				"demo-v",
+				"src/less/globals/demo-vars.less"
+			],
+			[
+				"documenta",
+				"docs/documentation.jade"
+			],
+			[
+				"01-b",
+				"lib/blocks/demo06/01-banner.jade"
+			],
+			[
+				"icon-",
+				"src/less/blocks/icon-blocks.less"
+			],
+			[
+				"typograph",
+				"src/less/ui/typography.less"
+			],
+			[
+				"study",
+				"src/less/blocks/study.less"
+			],
+			[
+				"stu",
+				"src/less/blocks/study.less"
+			],
+			[
+				"icon",
+				"src/bower_components/components-font-awesome/less/icons.less"
+			],
+			[
+				"stud",
+				"src/less/blocks/study.less"
+			],
+			[
+				"01",
+				"lib/blocks/demo06/01-banner.jade"
+			],
+			[
+				"icons.",
+				"src/bower_components/components-font-awesome/less/icons.less"
+			],
+			[
+				"font-a",
+				"src/bower_components/components-font-awesome/less/font-awesome.less"
+			],
+			[
+				"app.",
+				"src/less/app.less"
+			],
+			[
+				"typogr",
+				"src/less/ui/typography.less"
+			],
+			[
+				"iphone-ca",
+				"src/less/blocks/iphone-case.less"
+			],
+			[
+				"color",
+				"node_modules/gulp-combine-media-queries/node_modules/gulp-util/lib/colors.js"
+			],
+			[
+				"06",
+				"lib/blocks/demo06/01-banner.jade"
+			],
+			[
+				"spacin",
+				"src/less/ui/spacing.less"
+			],
+			[
+				"top",
+				"lib/includes/demo06/topbar.jade"
+			],
+			[
+				"app.less",
+				"src/less/app.less"
+			],
+			[
+				"header",
+				"lib/blocks/demo02/header-slider.jade"
+			],
+			[
+				"banner",
+				"lib/blocks/demo06/01-banner.jade"
+			],
+			[
+				"varia",
+				"src/less/globals/variables.less"
+			],
+			[
+				"ff.",
+				"src/less/globals/ff.less"
+			],
+			[
+				"head.jade",
+				"lib/includes/all/head.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

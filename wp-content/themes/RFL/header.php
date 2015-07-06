@@ -25,7 +25,8 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css"><!--[if IE]>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ie/ie.css"><![endif]-->
   <!--[if IE 8]>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ie/ie8.css"><![endif]--><!--[if IE]>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/ie/ie8.css"><![endif]-->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,800,700,300" rel="stylesheet" type="text/css"><!--[if IE]>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/ie.js"></script><![endif]-->
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
@@ -37,56 +38,41 @@
   to improve your experience.
 </p><![endif]-->
 <div id='view'>
-<nav class="navbar nav-white nav-nochange nav-lg">
-  <div class="container-fluid">
-    <div class="blackdetail"></div>
-    <div class="navbar-header"><a href="" data-toggle="sidebar" class="dark-color link align-right visible-xs">
-        <div class="spacing sp-xs2"></div><i class="fa fa-bars fa-2x"></i></a><a href="/" data-scroll="true" class="navbar-brand"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/logo.png" class="brand">
+<nav class="navbar nav-superior main-bgcolor white-color hidden-xs">
+  <div class="container">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://linkedin.com"><span><i class="fa fa-linkedin"></i></span></a></li>
+      <li><a href="<?php echo get_site_url(); ?>/blog"><span> Blog</span></a></li>
+      <li><a href="/productos"><span> Tracking</span></a></li>
+      <li>
+        <form role="search" class="form-bordered navbar-form navbar-left">
+          <div class="form-group"><span class="input-group-addon"><i class="fa fa-search"></i></span>
+            <input type="text" placeholder="" class="form-control">
+          </div>
+        </form>
+      </li>
+      <li><a href="<?php echo get_site_url(); ?>"><span> ING</span></a></li>
+      <li><a href="<?php echo get_site_url(); ?>"><span> ESP</span></a></li>
+    </ul>
+  </div>
+</nav>
+<nav class="navbar nav-transparent nav-nochange nav-lg">
+  <div class="container">
+    <div class="navbar-header"><a href="" data-toggle="sidebar" class="main-color link align-right visible-xs">
+        <div class="spacing sp-xs2"></div><i class="fa fa-bars fa-2x"></i></a><a href="<?php echo get_site_url(); ?>" data-scroll="true" class="navbar-brand"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/logo.png" class="brand">
         
         </a></div>
     <div class="collapse navbar-collapse sans uppercase">
-      <ul class="nav navbar-nav navbar-right navbar-fixedright black-bgcolor white-color">
-        <li><a href="/quienes"><span>Quiénes somos</span></a></li>
-        <li><a href="/productos"><span> Productos</span></a></li>
-        <li><a href="/noticias"><span> Noticias</span></a></li>
-        <li><a href="/contacto"><span> Contacto</span></a></li>
-        <li><a id="searchBtn" href="#" class="main-bgcolor"><span class="fa fa-search"></span></a></li>
+      <ul class="nav navbar-nav navbar-right navbar-fixedright main-color">
+        <li><a href="<?php echo get_site_url(); ?>"><span>Home</span></a></li>
+        <li><a href="<?php echo get_site_url(); ?>"><span> RFL</span></a></li>
+        <li><a href="<?php echo get_site_url(); ?>/servicios"><span> Servicios</span></a></li>
+        <li><a href="<?php echo get_site_url(); ?>/contacto"><span> Contacto</span></a></li>
       </ul>
     </div>
   </div>
 </nav>
-<div id="buscador">
-  <div class="block block-stretch container-fluid gray-bgcolor">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="row">
-          <div class="col-sm-4 align-right">
-            <h4 class="title"><span class="dark-color bold text-sm">Encuentra tu producto</span></h4>
-          </div>
-          <div class="col-sm-8">
-            <form class="box-form form-sm">
-              <div class="input-group">
-                <input type="text" placeholder="Referencia producto" class="form-control"><span class="input-group-btn">
-                  <button type="button" class="btn btn-dark"><span class="fa fa-search"></span></button></span>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 align-right">
-        <ul class="list list-horizontal">
-          <li>
-            <p class="bold">¿No lo encuentras?</p>
-          </li>
-          <li>
-            <div class="btn btn-lightgray">Preguntar</div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="sidebar dark-bgcolor">
+<div class="sidebar main-bgcolor">
   <div class="close-view light-color"><a href="#" data-toggle="sidebar" class="sans">+</a></div>
   <div class="block">
     <div class="row">
@@ -94,16 +80,16 @@
         <div class="spacing sp-md"></div>
         <div class="side-menu">
           <ul id="main-nav" class="main-nav nav-menu nav-lined light-color align-left">
-            <li><a href="/quienes" data-toggle="sidebar" data-scrollTo="true">
-                <p class="sans-2 uppercase italic">Quiénes somos</p></a></li>
-            <li><a href="/productos" data-toggle="sidebar" data-scrollTo="true">
-                <p class="sans-2 uppercase italic">Productos</p></a></li>
-            <li><a href="/noticias" data-toggle="sidebar" data-scrollTo="true">
-                <p class="sans-2 uppercase italic">Noticias</p></a></li>
-            <li><a href="/contacto" target="_blank">
+            <li><a href="<?php echo get_site_url(); ?>" data-toggle="sidebar" data-scrollTo="true">
+                <p class="sans-2 uppercase italic">Home</p></a></li>
+            <li><a href="<?php echo get_site_url(); ?>/servicios" data-toggle="sidebar" data-scrollTo="true">
+                <p class="sans-2 uppercase italic">Servicios</p></a></li>
+            <li><a href="<?php echo get_site_url(); ?>/contacto" data-toggle="sidebar" data-scrollTo="true">
                 <p class="sans-2 uppercase italic">Contacto</p></a></li>
-            <li><a href="/">
-                <p class="sans-2 uppercase italic">Busca un producto</p></a></li>
+            <li><a href="<?php echo get_site_url(); ?>/blog" target="_blank">
+                <p class="sans-2 uppercase italic">Blog</p></a></li>
+            <li><a href="<?php echo get_site_url(); ?>/tracking">
+                <p class="sans-2 uppercase italic">Tracking</p></a></li>
           </ul>
         </div>
       </div>

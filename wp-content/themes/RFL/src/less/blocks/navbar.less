@@ -54,6 +54,35 @@
   right:inherit;
   width:100%;
   .z-index(2);
+
+  &.nav-superior {
+    margin-bottom: 0;
+    min-height: 38px;
+    z-index: 4;
+    border-radius: 0!important;
+    li {
+      a {
+        font-size: 11px;
+        text-transform: uppercase;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        i {
+          font-size: 16px;
+        }
+        &:hover {
+          background-color: rgba(0,0,0,.2);
+        }
+      }
+    }
+    form {
+      margin:0;
+      input {
+        border-color: transparent!important;
+        background-color: rgba(0,0,0,.2)!important;
+        border-radius: 0;
+      }
+    }
+  }
   // If we want a logo bigger at the top of the page, and smaller on scroll
   &.nav-brandBigCentered {
     &:before {

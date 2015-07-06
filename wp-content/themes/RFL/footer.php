@@ -1,75 +1,73 @@
 
 <footer>
   <div class="block container-fluid block-wide light-color">
-    <div id="mainfooter" class="row dark-bgcolor withmap portfolio thumbs-wide">
-      <div class="col-sm-4 thumb darker">
+    <div id="mainfooter" class="row main-bgcolor withmap portfolio thumbs-wide">
+      <div class="col-sm-3 thumb">
         <div class="spacing sp-md"></div>
         <div class="col-sm-8 col-sm-offset-2">
-          <h3 class="uppercase">Cantisa</h3>
-          <div class="spacing sp-sm"></div>
           <ul class="list">
             <li>
-              <p class="text-md"><a href="">Quiénes somos</a></p>
+              <p class="uppercase text-md"><a href="">Home</a></p>
             </li>
             <li>
-              <p class="text-md"><a href="">Productos</a></p>
+              <p class="uppercase text-md"><a href="">Reefer&food</a></p>
             </li>
             <li>
-              <p class="text-md"><a href="">Noticias</a></p>
+              <p class="uppercase text-md"><a href="">Servicios</a></p>
             </li>
             <li>
-              <p class="text-md"><a href="">Contacto</a></p>
-            </li>
-            <li>
-              <p class="text-md"><a href="">Aviso legal</a></p>
+              <p class="uppercase text-md"><a href="">Contacto</a></p>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-sm-4 thumb">
+      <div class="col-sm-3 thumb">
         <div class="spacing sp-md"></div>
         <div class="col-sm-8 col-sm-offset-2">
-          <h3 class="uppercase">Contacto</h3>
-          <div class="spacing sp-sm"></div>
-          <ul class="list">
-            <li>
-              <p class="text-md"><a href="">Quiénes somos</a></p>
-            </li>
-            <li>
-              <p class="text-md"><a href="">Productos</a></p>
-            </li>
-            <li>
-              <p class="text-md"><a href="">Noticias</a></p>
-            </li>
-            <li>
-              <p class="text-md"><a href="">Contacto</a></p>
-            </li>
-            <li>
-              <p class="text-md"><a href="">Aviso legal</a></p>
-            </li>
-          </ul>
+          <p class="uppercase">Contacta con nosotros</p>
+          <p>Calle del Doctor Lluch<br/>16, bajo<br/>Valencia (Spain)</p><br/>
+          <p>Teléfono<br/>978 035 035</p>
         </div>
       </div>
-      <div class="col-sm-4 thumb darker">
+      <div class="col-sm-3 thumb">
         <div class="spacing sp-md"></div>
         <div class="col-sm-8 col-sm-offset-2">
-          <h3 class="uppercase">Síguenos</h3>
+          <p>Correo electrónico</p>
+          <p> <a href="mailto:info@reefer-food.com">info@reefer-food.com</a></p><br/>
+          <p>Síguenos en</p>
+          <p><a href=""><i class="fa fa-linkedin fa-2x"></i></a><a href=""><i class="fa fa-facebook fa-2x"></i></a></p>
+        </div>
+      </div>
+      <div class="col-sm-3 thumb">
+        <div class="spacing sp-md"></div>
+        <div class="col-sm-8 col-sm-offset-2">
+          <p>Suscríbete a nuestro<br/>NEWSLETTER</p>
           <div class="spacing sp-sm"></div>
           <form class="box-form">
             <div class="input-group">
-              <input type="text" placeholder="Busca algo" class="form-control"/><span class="input-group-btn">
-                <button type="button" class="btn btn-main"><span class="fa fa-search"></span></button></span>
+              <input type="text" placeholder="" class="form-control"/>
             </div>
           </form>
-          <div class="spacing sp-sm">  </div>
-          <ul class="list list-horizontal">
-            <li><a class="btn btn-main">Like</a></li>
-            <li><a class="btn btn-main">g+</a></li>
-          </ul>
         </div>
       </div>
+      <div class="spacing sp-lg"></div>
     </div>
-    <div class="spacing sp-lg"></div>
+    <div id="subfooter" class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2">
+        <p>© 2015, reefer&food</p>
+      </div>
+      <div class="col-sm-2">
+        <p><a href="">Política de privacidad</a></p>
+      </div>
+      <div class="col-sm-2">
+        <p><a href="">Política de cookies</a></p>
+      </div>
+      <div class="col-sm-2 hidden-xs"></div>
+      <div class="col-sm-3">
+        <p>Developed by <a href="">Artvisual</a></p>
+      </div>
+    </div>
   </div>
 </footer>
 <script>

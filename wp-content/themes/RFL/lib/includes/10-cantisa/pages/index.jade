@@ -1,69 +1,145 @@
 #home
-  .block.light-color.center.container-fluid
+
+  #myCarousel.carousel.slide.main-bgcolor.light-color(data-ride='carousel')
+    //- Indicators
+    ol.carousel-indicators
+      li.active(data-target='#myCarousel', data-slide-to='0')
+      li(data-target='#myCarousel', data-slide-to='1')
+      li(data-target='#myCarousel', data-slide-to='2')
+    .carousel-inner(role='listbox')
+      .item.active
+        img.first-slide(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg', alt='First slide')
+        .container
+          .carousel-caption
+            h2.text-lg.lighter Transitorio especialista en
+              br
+              span.bolder.uppercase agroalimentación
+            //-
+              h1 Transitorio especialista en agroalimentación
+              p
+                | Note: If you're viewing this page via a 
+                code file://
+                |  URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.
+              p
+                a.btn.btn-lg.btn-primary(href='#', role='button') Sign up today
+      .item
+        img.second-slide(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg', alt='Second slide')
+        .container
+          .carousel-caption
+            h2.text-lg.lighter Transitorio especialista en
+              br
+              span.bolder.uppercase agroalimentación
+      .item
+        img.third-slide(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg', alt='Third slide')
+        .container
+          .carousel-caption
+            h2.text-lg.lighter Transitorio especialista en
+              br
+              span.bolder.uppercase agroalimentación
+    a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+      span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+      span.sr-only Previous
+    a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+      span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+      span.sr-only Next  
+
+  
+  .block.text-center.blue-bgcolor.white-color
+    .row
+      .col-sm-8.col-sm-offset-2
+        p Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  .block.text-center
+    .row
+      .col-sm-4
+        img(src!="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb1.jpg",alt="")
+        .spacing.sp-sm2
+        p.uppercase.bolder Transporte refrigerado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-4
+        img(src!="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb2.png",alt="")
+        .spacing.sp-sm2
+        p.uppercase.bolder Transporte congelado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-4
+        img(src!="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb3.png",alt="")
+        .spacing.sp-sm2
+        p.uppercase.bolder Transporte de carga seca
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  .block.white-color
     .bg-fixed
-      .background-full.zoomClass.bg-alpha-main(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/web/home.jpg')")
+      .background-full.zoomClass.bg-texture(style="background-image:url('http://www.midoceanpartners.com/i/ocean_still.jpg');")
         .bg
     .row
-      .spacing.sp-lg
-      .col-sm-10.col-sm-offset-1.text-left.anim.from-left.anim-far.anim-slow
-        h1.text-sm.lighter 30 años de
-          br
-          span.bolder calidad
-      .spacing.sp-lg
-      .spacing.sp-md
-
+      .col-sm-8
+        p.bolder Acceso traking
+        p Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-4.text-center
+        .spacing.sp-xl
+        a.btn.btn-gradient.btn-accent.btn-block.btn-lg(href!="<?php echo get_site_url(); ?>/tracking") Acceder
+  .block.text-center
+    .row
+      .col-sm-8.col-sm-offset-2
+        .spacing.sp-sm2
+        p.main-color.bolder Ventajas competitivas
+        p Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
   //- PORTFOLIO
   .block.container-fluid.block-wide.lightgray-bgcolor
     .row.portfolio.thumbs-wide
       //- .col-sm-2.center
-      a.col-sm-3.thumb.zoomHover.center(href="/productos")
-        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/web/thumb1.jpg');")
+      a.col-sm-4.thumb.zoomHover.center(href="/productos")
+        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/1.jpg');")
           .bg
         .text-content
           .spacing.sp-md
-          h3.light-color.title.uppercase.lighter
-            | Rollos
-            br
-            span.bolder PVC
+          h3.light-color.title.uppercase.bolder
+            | Atmósfera controlada
+            //- br
+            //- span.bolder controlada
+          p.light-color Lorem Vestibulum Sollicitudin Egestas Bibendum
           .spacing.sp-sm2
-          .btn.btn-sm.btn-bordered Más info
-      a.col-sm-3.blue-bgcolor.thumb.zoomHover.center(href="/productos")
-        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/web/thumb2.jpg');")
+      a.col-sm-4.blue-bgcolor.thumb.zoomHover.center(href="/productos")
+        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/2.jpg');")
           .bg
         .text-content
           .spacing.sp-md
-          h3.light-color.title.uppercase.lighter
-            | Rollos
-            br
-            span.bolder madera
-          .spacing.sp-sm2
-          .btn.btn-sm.btn-bordered Más info
-      a.col-sm-3.blue-bgcolor.thumb.zoomHover.center(href="/productos")
-        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/web/thumb3.jpg');")
+          h3.light-color.title.uppercase.bolder
+            | Plataforma logística
+            //- br
+            //- span.bolder controlada
+          p.light-color Lorem Vestibulum Sollicitudin Egestas Bibendum
+      a.col-sm-4.blue-bgcolor.thumb.zoomHover.center(href="/productos")
+        .img.background-full.bg-gradientshadow-top(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/3.jpg');")
           .bg
         .text-content
           .spacing.sp-md
-          h3.light-color.title.uppercase.lighter
-            | Molduras a
-            br
-            span.bolder testa
-          .spacing.sp-sm2
-          .btn.btn-sm.btn-bordered Más info
-        - $args = array( 'numberposts' => '1' );
-        - $recent_posts = wp_get_recent_posts( $args );
-        - foreach( $recent_posts as $recent ){
-        a.col-sm-3.main-bgcolor.thumb.red-thumb.center(href!="<?php echo get_permalink($recent['ID'])?>")
-          .text-content.align-left
-            h3.light-color
-              span.bolder 
-                - $allCat = get_the_category();
-                - $lastCat = array_reverse($allCat);
-                - echo $lastCat[$recent['ID']]->name;
-                |  / 
-              - echo get_the_date('d.m.Y',$recent['ID'])
-            .spacing.sp-sm
-            p.light-color.lined-sm
-              - echo get_the_title($recent['ID'])
-        - }
-
-      
+          h3.light-color.title.uppercase.bolder
+            | Cold treatment
+            //- br
+            //- span.bolder controlada
+          p.light-color Lorem Vestibulum Sollicitudin Egestas Bibendum
+  .block.green-bgcolor
+    .row
+      .col-sm-12
+        p.bolder.main-color Últimas noticias
+        .spacing.sp-sm
+      .col-sm-3
+        img.img-full(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/3.jpg')
+        .spacing.sp-sm2
+        p.uppercase.bolder.main-color Transporte congelado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-3
+        img.img-full(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/3.jpg')
+        .spacing.sp-sm2
+        p.uppercase.bolder.main-color Transporte congelado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-3
+        img.img-full(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/3.jpg')
+        .spacing.sp-sm2
+        p.uppercase.bolder.main-color Transporte congelado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      .col-sm-3
+        img.img-full(src!='<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/3.jpg')
+        .spacing.sp-sm2
+        p.uppercase.bolder.main-color Transporte congelado
+        p Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       

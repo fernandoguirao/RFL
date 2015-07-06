@@ -1,35 +1,54 @@
+nav.navbar.nav-superior.main-bgcolor.white-color.hidden-xs
+  .container
+    ul.nav.navbar-nav.navbar-right
+      li
+        a(href="http://linkedin.com")
+          span
+            i.fa.fa-linkedin
+      li
+        a(href!="<?php echo get_site_url(); ?>/blog")
+          span  Blog
+      li
+        a(href="/productos")
+          span  Tracking
+      li
+        form.form-bordered.navbar-form.navbar-left(role="search")
+          .form-group
+            span.input-group-addon
+              i.fa.fa-search
+            input.form-control(type="text",placeholder="")
+      li
+        a(href!="<?php echo get_site_url(); ?>")
+          span  ING
+      li
+        a(href!="<?php echo get_site_url(); ?>")
+          span  ESP
 
-nav.navbar.nav-white.nav-nochange.nav-lg
-  .container-fluid
+nav.navbar.nav-transparent.nav-nochange.nav-lg
+  .container
     //- Brand and toggle
-    .blackdetail
     .navbar-header
-      a.dark-color.link.align-right.visible-xs(href="",data-toggle="sidebar")
+      a.main-color.link.align-right.visible-xs(href="",data-toggle="sidebar")
         .spacing.sp-xs2
         i.fa.fa-bars.fa-2x
-      a.navbar-brand(href="/",data-scroll="true")
-        img.brand(src!="<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/logo.png")
+      a.navbar-brand(href!="<?php echo get_site_url(); ?>",data-scroll="true")
+        img.brand(src!="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/logo.png")
         //- h3.black-color(style="line-height:0;") cantisa
 
 
     
     .collapse.navbar-collapse.sans.uppercase
       
-      ul.nav.navbar-nav.navbar-right.navbar-fixedright.black-bgcolor.white-color
+      ul.nav.navbar-nav.navbar-right.navbar-fixedright.main-color
         li
-          a(href="/quienes")
-            span Quiénes somos
+          a(href!="<?php echo get_site_url(); ?>")
+            span Home
         li
-          a(href="/productos")
-            span  Productos
+          a(href!="<?php echo get_site_url(); ?>")
+            span  RFL
         li
-          a(href="/noticias")
-            span  Noticias
+          a(href!="<?php echo get_site_url(); ?>/servicios")
+            span  Servicios
         li
-          a(href="/contacto")
+          a(href!="<?php echo get_site_url(); ?>/contacto")
             span  Contacto
-        li
-          a#searchBtn.main-bgcolor(href="#")
-            span.fa.fa-search
-
-include searchbar.jade

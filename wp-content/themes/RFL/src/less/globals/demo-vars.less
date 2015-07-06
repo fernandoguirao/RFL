@@ -1,8 +1,105 @@
+// DEMO 11 / RFL
+
 
 
 // DEMO 10 / CANTISA
+@font-serif:'Open Sans', Helvetica, Arial, sans-serif;
+@font-sans:'Open Sans', Helvetica, Arial, sans-serif;
+@font-sans-2:'Open Sans', Helvetica, Arial, sans-serif;
+@main:#0C577B;
+@lightblue:#ACC6CC;
+@blue2:#67A5BB;
+@blue:#6DA5B9;
+@green:#CCD39D;
+// TOPBAR
 
-@main:#E20D28;
+.navbar-header {
+  z-index:3;
+  margin-top: 4px;
+}
+
+.navbar-collapse {
+  position: relative;
+  top:-22px;
+  span {
+    font-size: 15px;
+  }
+}
+.fa-bars {
+  margin-top:-10px;
+}
+
+// SLIDER
+
+.carousel-indicators li {
+  border-color:@lightblue;
+  width:20px;
+  height:20px;
+  border-width:3px;
+  margin-left:5px;
+  margin-right:5px;
+  &.active {
+    border-color:@blue;
+    background-color:@blue;
+    width:20px;
+    height:20px;
+    border-width:3px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+}
+
+.carousel-caption {
+  h2 {
+    line-height: 1.45;
+  }
+}
+
+// FOOTER
+footer {
+  #subfooter {
+    background-color:@blue2;
+    p,a {
+      font-size:14px;
+      @media(max-width:@screen-xs-max ){
+        text-align: center;
+      }
+    }
+  }
+  #mainfooter {
+    .input-group {
+      @media(max-width:@screen-xs-max ){
+        width:100%;
+      }
+    }
+    input {
+      background-color:@blue2;
+      border-color:@blue2;
+    }
+    .fa-facebook {
+      margin-left:10px;
+    }
+    p,a {
+      @media(max-width:@screen-xs-max ){
+        text-align: center;
+      }
+      font-size:14px;
+    }
+    a:hover {
+      color:white!important;
+    }
+    li {
+      border-bottom: none;
+      &:hover {
+        a {
+          color:white!important;
+        }
+      }
+    }
+  }
+}
+
+/*@main:#E20D28;
 @light-gray:#DCDDDE;
 @font-serif:'Helvetica Neue', Helvetica, Arial, sans-serif;
 @font-sans:'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -502,4 +599,4 @@ footer {
   .gray-bgcolor {
     background-color:#DCDDDE;
   }
-}
+}*/
