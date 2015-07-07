@@ -1,49 +1,53 @@
 #contacto
-  .block
+  #title.block
     .row
       .col-sm-12
         .spacing.sp-md
-        h3 Contacto
+        h3.main-color Contacto
   #map.block.block-full.light-color.center.container-fluid.background-full
     iframe(width="600",height="450",frameborder="0",src="https://www.google.com/maps/embed/v1/place?q=Calle%20Gasco%20Oliag%2C%2010%2C%20Valencia%2C%20Espa%C3%B1a&key=AIzaSyA2krBchnBxATGkN8XjD-F3qlYh-wR0-m8&")
 
   .block
     .row
       .col-sm-6
-        p Calle del Dr. Lluch
-        p 16, bajo
-        p Valencia, Spain
+        p.text-sm Calle del Dr. Lluch
+          br
+          | 16, bajo
+          br
+          | Valencia, Spain
         br
-        p Teléfono
-        p 92323131
+        p.text-sm Teléfono
+          br
+          | 92323131
         br
-        p Correo electrónico
-        p info@adasd.cpm
+        p.text-sm Correo electrónico
+          br
+          a(href="") info@adasd.cpm
 
       .col-sm-6.dark-color
         form
           //- - echo do_shortcode('[contact-form-7 id="40" title="Formulario de contacto 1"]')
             
           .form-group
-            label Nombre
+            label.main-color Nombre
               span.main-color *
             input.form-control(type="text",placeholder="")
           .form-group
-            label Empresa
+            label.main-color Empresa
             input.form-control(type="text",placeholder="")
           .form-group
-            label Teléfono
+            label.main-color Teléfono
               span.main-color *
             input.form-control(type="text",placeholder="")
           .form-group
-            label Email
+            label.main-color Email
               span.main-color *
             input.form-control(type="text",placeholder="")
           .form-group
-            label Mensaje
+            label.main-color Mensaje
             textarea.form-control(placeholder="",rows="9")
-          .col-sm-12.text-center
+          .form-group
             .spacing.sp-sm
-            button.btn.dark-btn Enviar
+            button.btn-accent.btn-block.btn-lg.uppercase Enviar
   
       .spacing.sp-md

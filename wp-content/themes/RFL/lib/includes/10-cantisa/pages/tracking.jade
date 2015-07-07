@@ -1,32 +1,33 @@
-#servicios
+#traking
   .block.light-color.center.container-fluid
     .bg-fixed
-      .background-full.zoomClass.bg-alpha-main(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/10-cantisa/web/home.jpg')")
+      .background-full.zoomClass(style!="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/misc/demo02/section-01b.jpg')")
         .bg
     .row
       .spacing.sp-lg
       .col-sm-10.col-sm-offset-1.text-left.anim.from-left.anim-far.anim-slow
-        h1.text-sm.lighter Tracking
-      .spacing.sp-lg
+        h2.uppercase.bolder.text-shadow Traking
       .spacing.sp-md
   .block
     .row
       .col-sm-6.dark-color
-        p.bolder Acceso Tracking
-        p Sed posuere consectetur est at lobortis.
+        .spacing.sp-sm
+        p.bolder.main-color Acceso Tracking
+        p.main-color.text-sm Introduzca su nombre de usuario en la casilla ID y la contraseña en la casilla PID y pulse OK para comenzar a utilizar el consultor.
+        .spacing.sp-sm
         form
           //- - echo do_shortcode('[contact-form-7 id="40" title="Formulario de contacto 1"]')
             
           .form-group
-            label ID
+            label.main-color ID
               span.main-color *
             input.form-control(type="text",placeholder="")
           .form-group
-            label PID
+            label.main-color PID
             input.form-control(type="text",placeholder="")
-          .col-sm-12.text-center
+          .form-group
             .spacing.sp-sm
-            button.btn.dark-btn OK
+            button.btn-accent.btn-block.btn-lg.uppercase OK
 
       
   

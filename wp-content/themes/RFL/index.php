@@ -9,21 +9,21 @@
     <div role="listbox" class="carousel-inner">
       <div class="item active"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg" alt="First slide" class="first-slide"/>
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption anim from-left anim-far anim-slow">
             <h2 class="text-lg lighter">Transitorio especialista en<br/><span class="bolder uppercase">agroalimentación</span></h2>
           </div>
         </div>
       </div>
       <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg" alt="Second slide" class="second-slide"/>
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption anim from-left anim-far anim-slow">
             <h2 class="text-lg lighter">Transitorio especialista en<br/><span class="bolder uppercase">agroalimentación</span></h2>
           </div>
         </div>
       </div>
       <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/slider.jpg" alt="Third slide" class="third-slide"/>
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption anim from-left anim-far anim-slow">
             <h2 class="text-lg lighter">Transitorio especialista en<br/><span class="bolder uppercase">agroalimentación</span></h2>
           </div>
         </div>
@@ -33,23 +33,23 @@
   <div class="block text-center blue-bgcolor white-color">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+        <p class="anim from-bottom anim-far anim-slow">Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
       </div>
     </div>
   </div>
   <div class="block text-center">
     <div class="row">
-      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb1.jpg" alt=""/>
+      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb1.jpg" alt="" class="anim from-left anim-far anim-slow"/>
         <div class="spacing sp-sm2"></div>
         <p class="uppercase bolder">Transporte refrigerado</p>
         <p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb2.png" alt=""/>
+      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb2.png" alt="" class="anim from-center anim-far anim-slow"/>
         <div class="spacing sp-sm2"></div>
         <p class="uppercase bolder">Transporte congelado</p>
         <p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb3.png" alt=""/>
+      <div class="col-sm-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/misc/11-rfl/thumb3.png" alt="" class="anim from-right anim-far anim-slow"/>
         <div class="spacing sp-sm2"></div>
         <p class="uppercase bolder">Transporte de carga seca</p>
         <p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -74,7 +74,7 @@
   </div>
   <div class="block text-center">
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
+      <div class="col-sm-8 col-sm-offset-2 anim from-top anim-far anim-slow">
         <div class="spacing sp-sm2"></div>
         <p class="main-color bolder">Ventajas competitivas</p>
         <p>Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>

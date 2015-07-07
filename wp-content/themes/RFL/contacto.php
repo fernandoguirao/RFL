@@ -1,10 +1,10 @@
 <?php /* ?><?php Template Name: Contacto  ?><?php */ ?><?php get_header(); ?>
 <div id="contacto">
-  <div class="block">
+  <div id="title" class="block">
     <div class="row">
       <div class="col-sm-12">
         <div class="spacing sp-md"></div>
-        <h3>Contacto</h3>
+        <h3 class="main-color">Contacto</h3>
       </div>
     </div>
   </div>
@@ -14,39 +14,35 @@
   <div class="block">
     <div class="row">
       <div class="col-sm-6">
-        <p>Calle del Dr. Lluch</p>
-        <p>16, bajo</p>
-        <p>Valencia, Spain</p><br/>
-        <p>Teléfono</p>
-        <p>92323131</p><br/>
-        <p>Correo electrónico</p>
-        <p>info@adasd.cpm</p>
+        <p class="text-sm">Calle del Dr. Lluch<br/>16, bajo<br/>Valencia, Spain</p><br/>
+        <p class="text-sm">Teléfono<br/>92323131</p><br/>
+        <p class="text-sm">Correo electrónico<br/><a href="">info@adasd.cpm</a></p>
       </div>
       <div class="col-sm-6 dark-color">
         <form>
           <div class="form-group">
-            <label>Nombre<span class="main-color">*</span></label>
+            <label class="main-color">Nombre<span class="main-color">*</span></label>
             <input type="text" placeholder="" class="form-control"/>
           </div>
           <div class="form-group">
-            <label>Empresa</label>
+            <label class="main-color">Empresa</label>
             <input type="text" placeholder="" class="form-control"/>
           </div>
           <div class="form-group">
-            <label>Teléfono<span class="main-color">*</span></label>
+            <label class="main-color">Teléfono<span class="main-color">*</span></label>
             <input type="text" placeholder="" class="form-control"/>
           </div>
           <div class="form-group">
-            <label>Email<span class="main-color">*</span></label>
+            <label class="main-color">Email<span class="main-color">*</span></label>
             <input type="text" placeholder="" class="form-control"/>
           </div>
           <div class="form-group">
-            <label>Mensaje</label>
+            <label class="main-color">Mensaje</label>
             <textarea placeholder="" rows="9" class="form-control"></textarea>
           </div>
-          <div class="col-sm-12 text-center">
+          <div class="form-group">
             <div class="spacing sp-sm"></div>
-            <button class="btn dark-btn">Enviar</button>
+            <button class="btn-accent btn-block btn-lg uppercase">Enviar</button>
           </div>
         </form>
       </div>

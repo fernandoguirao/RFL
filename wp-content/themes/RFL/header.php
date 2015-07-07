@@ -43,7 +43,7 @@
     <ul class="nav navbar-nav navbar-right">
       <li><a href="http://linkedin.com"><span><i class="fa fa-linkedin"></i></span></a></li>
       <li><a href="<?php echo get_site_url(); ?>/blog"><span> Blog</span></a></li>
-      <li><a href="/productos"><span> Tracking</span></a></li>
+      <li><a href="/tracking"><span> Tracking</span></a></li>
       <li>
         <form role="search" class="form-bordered navbar-form navbar-left">
           <div class="form-group"><span class="input-group-addon"><i class="fa fa-search"></i></span>
